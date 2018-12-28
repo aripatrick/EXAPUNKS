@@ -1,0 +1,17 @@
+# Solution
+![](solution.gif)
+
+XA
+```
+GRAB 300
+COPY F X
+DROP
+LINK 800
+LINK 800
+GRAB 237
+MARK LOOP
+TEST X = F
+FJMP LOOP
+SEEK -1
+VOID F
+```

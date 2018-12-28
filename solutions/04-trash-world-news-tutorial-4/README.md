@@ -1,0 +1,17 @@
+# Solution
+![](solution.gif)
+
+XA
+```
+LINK 800
+GRAB 200
+COPY F T
+WIPE
+MAKE
+COPY T F
+LINK 800
+MARK LOOP
+SUBI T 1 T
+COPY T F
+TJMP LOOP
+```
